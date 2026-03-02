@@ -28,3 +28,27 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+
+## How to run
+
+## How to run
+
+1. Clone the repository from GitHub Classroom:
+   git clone <repository-url>
+   cd <repository-name>
+
+
+2. Create and activate the virtual environment:python -m venv .venv
+   Windows (Git Bash):source .venv/Scripts/activate  ... you should see `(.venv)` in your terminal
+
+3. Verify the required files exist:
+
+- `.github/pull_request_template.md`
+- `docs/pr-checklist.md`
+- Updated `README.md` with this "How to run" section
+
+4. Confirm success:
+
+- The virtual environment activates without errors.
+- The folder structure matches the assignment requirements.
+- All files are in their correct directories.
